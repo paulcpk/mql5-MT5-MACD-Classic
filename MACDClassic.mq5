@@ -80,8 +80,8 @@ void OnInit()
     SetIndexBuffer(0, ExtMacdBuffer, INDICATOR_DATA);
     SetIndexBuffer(1, ExtSignalBuffer, INDICATOR_DATA);
     SetIndexBuffer(2, ExtHistogBuffer, INDICATOR_CALCULATIONS);
-    SetIndexBuffer(4, ExtFastMaBuffer, INDICATOR_CALCULATIONS);
-    SetIndexBuffer(5, ExtSlowMaBuffer, INDICATOR_CALCULATIONS);
+    SetIndexBuffer(3, ExtFastMaBuffer, INDICATOR_CALCULATIONS);
+    SetIndexBuffer(4, ExtSlowMaBuffer, INDICATOR_CALCULATIONS);
     //--- sets first bar from what index will be drawn
     PlotIndexSetInteger(1, PLOT_DRAW_BEGIN, InpSignalSMA - 1);
     //--- name for indicator subwindow label
